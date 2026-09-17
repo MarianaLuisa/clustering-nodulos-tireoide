@@ -1,0 +1,4 @@
+Cluster;N_Nodulos;Proporcao (%);Medoid_ID;Idade_Media (anos);Tamanho_Medio (cm);Pct_Bethesda_IV (%);Pct_Solido (%);Pct_Hipoecoico (%);Pct_Margem_Irregular (%);Pct_Mais_Alto_que_Largo (%);Pct_Microcalcificacoes (%);Pct_ACR_TR5_Alto_Risco (%);Taxa_Cancer_Malignidade (%)
+Cluster 1;227;45.4;NOD_043;51.2;2.37;33.0;44.9;21.1;3.1;0.0;2.2;0.0;9.7
+Cluster 2;109;21.8;NOD_054;53.0;2.06;42.2;100.0;100.0;100.0;66.1;82.6;82.6;68.8
+Cluster 3;164;32.8;NOD_088;53.6;2.94;79.3;82.3;68.3;29.9;3.0;12.2;8.5;28.0

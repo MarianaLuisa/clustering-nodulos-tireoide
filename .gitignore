@@ -1,0 +1,49 @@
+# ==============================================================================
+# GitIgnore - Projeto Clustering Nódulos de Tireoide (TCC 2)
+# Apenas o essencial do modelo, técnicas, documentação e resultados são versionados.
+# ==============================================================================
+
+# --- Python & Ambientes Virtuais ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- GERAÇÃO DE DADOS (Não disponibilizar no repositório) ---
+gerar_dados_sinteticos.py
+resumo_tecnico_gerar_dados_sinteticos.md
+nodulos_sinteticos_*.csv
+
+# --- DADOS BRUTOS / REAIS E CONFIDENCIAIS ---
+*.csv
+!resultados/perfil_clinico_clusters.csv
+resultados/nodulos_com_clusters_atribuidos.csv
+resultados/execucao_*/
+
+# --- ARQUIVOS DE SUPORTE, LIVROS, PDFs E TEXTOS BRUTOS ---
+*.pdf
+*.zip
+*.txt
+!requirements.txt
+livros/
+Referências/
+overleaf_eramia_clusters/
+artigo_estrutura_base/
+artigo_tcc_clustering_tireoide.tex
+artigo_tcc_clustering_tireoide.md
+resumo_tecnico_pipeline_clustering.md
+
+# --- Configurações de IDEs e Ferramentas ---
+.vscode/
+.idea/
+.gemini/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
