@@ -1,10 +1,10 @@
 """
-Pipeline de Agrupamento (Clustering) de Nódulos de Tireoide (TCC 2)
-Autora: Mariana Silva & Equipe (UFCSPA)
-Descrição:
-  Aplica os algoritmos descritos na metodologia do TCC para análise exploratória
-  de nódulos com citologia indeterminada (Bethesda III e IV).
-  
+Pipeline de Agrupamento (Clustering) de Nódulos de Tireoide — ERAMIA 2026
+Artigo: "Análise do Comportamento de Nódulos de Tireoide com Citologia Indeterminada por Meio de Algoritmos de Agrupamento de Dados"
+Autores: Mariana Luísa Gonçalves, Ana Trindade Winck, Luciano Costa Blomberg (UFCSPA)
+Conferência: Escola Regional de Aprendizado de Máquina e Inteligência Artificial do RS (ERAMIA 2026 - SBC)
+https://eramia-rs.sbc.org.br/2026/#/
+
 Método Principal:
   - Matriz de Dissimilaridade de Gower (para dados clínicos mistos).
   - K-Medoids (PAM - Partitioning Around Medoids).
@@ -57,7 +57,7 @@ def carregar_e_preparar_dados(caminho_csv):
     # Identificadores
     colunas_id = ['id_paciente', 'id_nodulo']
     
-    # Variáveis utilizadas no agrupamento (conforme Seção 6.7 e 7.5 do TCC)
+    # Variáveis clínico-ultrassonográficas de agrupamento (conforme metodologia do artigo ERAMIA 2026)
     colunas_features = [
         'idade',
         'sexo',
